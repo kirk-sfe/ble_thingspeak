@@ -19,11 +19,17 @@ log.addHandler(h)
 
 ## BLE Parameters
 
-## UUID Address of the target BLE Device - The best way to find this UUID is to
-## turn on the target device, then run the get_device_id.py file in this repository.
-## Then scan the results for your target device.
-
+## On Mac:
+##  UUID Address of the target BLE Device - The best way to find this UUID is to
+##  turn on the target device, then run the get_device_id.py file in this repository.
+##  Then scan the results for your target device.
+##
+## Mac
 ADDRESS = "F0581182-BFBE-4EEB-BA08-D023AF049601"
+
+## Windows
+## On Windows - use the address printed out via serial from the device
+#ADDRESS = "C0:97:D4:C9:1B:02"
 
 ## The UUID of the char that triggers the notification (temperature in this example)
 NOTIFICATION_UUID = "BEB5483E-36E1-4688-B7F5-EA07311B260E"
