@@ -51,4 +51,6 @@ Received callback data 82.48999786376953 35.9599609375 84890.171875
 Received callback data 82.99400329589844 35.5087890625 84888.453125
 200
 ```
-If the system connects to the device, "Connected: True" is printed. After that, each line is the data values sent to ThingSpeak and then the HTTP return code (200= success, 400 = error)
+If the system connects to the device, "Connected: True" is printed. After that, each line is the data values sent to ThingSpeak followed by the  HTTP return code (200= success, 400 = error)
+
+The data values should show up on your ThingSpeak channel
